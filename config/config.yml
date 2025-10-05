@@ -1,0 +1,55 @@
+paths:
+  data_csv: "data/forward_iim_baseline.csv"   # your local CSV; not committed
+
+filters:
+  baseline_flag: "firstobs"    # keep rows where firstobs == 1
+
+id_vars:
+  patient_id: "patient_id"
+
+pain_vars:
+  pain_scale: "pain_scale"     # 0–10 numeric
+  pain_binary_gt0: "pain"      # derived here: >0
+  pain_binary_gt3: "significant_pain"  # derived here: >3
+
+psd_vars:
+  psd: "psd"                   # polysymptomatic distress score (0–31)
+  fibcrit: "fibcrit"           # binary: meets FM criteria
+
+demographics:
+  age: "age"
+  sex: "sex"                   # factor
+  white: "white"               # factor
+  bmi: "bmi"
+  edlevel: "edlevel"
+  totincom: "totincom"
+  sxtime: "sxtime"             # symptom duration
+  subtype: "subtype"           # IIM subtype if available
+  smokeev: "smokeev"
+
+comorbidities:
+  - "overlap"
+  - "oadx"
+  - "raynauds"
+  - "coindex"
+  - "depression"
+  - "anxiety"
+  - "hbpev"
+  - "miev"
+  - "deprev"
+  - "diabev"
+  - "caev"
+  - "renalev"
+  - "lungev"
+  - "fxev"
+  - "giev"
+  - "heartev"
+
+healthcare:
+  satisfaction: "satisfaction"
+  gpvisit: "gpvisit"
+  rheumvisit: "rheumvisit"
+  ervisit: "ervisit"
+
+options:
+  age_deciles_var: "age_deciles"

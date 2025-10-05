@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the ACR abstract and this code."
+title: "Myositis × Fibromyalgia — Lightweight R Pipeline (ACR 2024)"
+type: software
+authors:
+  - family-names: Duan
+    given-names: Jiaxuan
+license: MIT
+keywords: [R, myositis, fibromyalgia, pain, PSD, epidemiology, reproducibility, pipeline]
+preferred-citation:
+  type: article
+  title: "Prevalence and Impact of Fibromyalgia in Patients with Idiopathic Inflammatory Myopathies"
+  year: 2024
+  journal: "ACR Convergence — Abstracts Supplement"

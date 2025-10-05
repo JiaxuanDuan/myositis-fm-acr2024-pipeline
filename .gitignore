@@ -1,0 +1,12 @@
+.Rhistory
+.Rproj.user/
+.RData
+.Ruserdata
+.Rprofile
+data/
+config/secrets.yml
+outputs/
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
