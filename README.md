@@ -4,7 +4,7 @@
 **Venue:** ACR 2024 Abstract (conference supplement)
 
 This repository provides a **lightweight, reproducible R workflow** mirroring the statistical analysis used for the abstract.
-It ships **no patient-level data** and focuses on clean structure and model logic suitable for public GitHub and hiring review.
+It ships **no patient-level data** and focuses on clean structure and model logic suitable for public GitHub release and research reproducibility demonstration.
 
 > Run scripts under `R/models/` in order (01 → 06) after mapping your local columns in `config/config.yml` and placing a CSV in `data/`.
 
